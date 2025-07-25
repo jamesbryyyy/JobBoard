@@ -6,7 +6,7 @@ import NotFound from './pages/NotFound';
 function App() {
   return (
     <Routes>
-      <Route path="/JobBoard" element={<Home />} />
+      <Route path="/" element={<Home />} />
       <Route path="/add-job" element={<AddJobForm />} />
 
       <Route path="*" element={<NotFound />} />
