@@ -19,7 +19,7 @@ function Home() {
 
             {/* Desktop Menu */}
             <div className="hidden sm:flex space-x-4 items-center">
-              <Link to="/" className="hover:text-blue-600">Home</Link>
+              <Link to="/JobBoard" className="hover:text-blue-600">Home</Link>
               <button onClick={() => setLoginModalOpen(true)} className="hover:text-blue-600">
                 Log in
               </button>
@@ -62,7 +62,7 @@ function Home() {
         {/* Mobile Menu */}
         {isMobileMenuOpen && (
           <div className="sm:hidden px-4 pb-4">
-            <Link to="/" className="block py-2 hover:text-blue-600">Home</Link>
+            <Link to="/JobBoard" className="block py-2 hover:text-blue-600">Home</Link>
             <button
               onClick={() => {
                 setLoginModalOpen(true);
