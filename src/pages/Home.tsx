@@ -24,7 +24,7 @@ function Home() {
                 Log in
               </button>
               <Link to="/add-job" className="text-blue-500 hover:underline">
-                Add Job
+                Post Job
               </Link>
             </div>
 
@@ -73,7 +73,7 @@ function Home() {
               Log in
             </button>
             <Link to="/add-job" className="block py-2 text-blue-500 hover:underline">
-              Add Job
+              Post Job
             </Link>
           </div>
         )}
